@@ -6,7 +6,7 @@
 3. (https://ru.w3docs.com/uchebnik-html/html-teg-dt.html) - руссіфікована версія
 
 ## Практика коррисні посилання
-4. (https://www.figma.com/file/z6Rb84e4NKxe66QNokOWA8/Barbershop-EN?node-id=0%3A1) - макет
+4. (https://www.figma.com/file/05Sj5gmJE4Hiv4wpgXsPE5/Templates-%234.-More-on-Figma.info-(Copy)) - макет
 5. (https://dwstroy.ru/stail/plaginy-rasshireniya/emmet-shpargalka/) - шпаргалка EMMET
 6. (https://git-scm.com/book/ru/v2) - документація гіт (руссіфікована)
 7. (https://git-scm.com/book) - документація гіт
