@@ -1,4 +1,11 @@
-# Практика 1
+# Практика 3
+
+- Flex та визначення сітки
+- Верстаемо макет
+- Гра - https://codepip.com/games/flexbox-froggy/#ru (15 хвилин)
+- Верстаемо макет
+- Grid (якщо є час)
+
 
 ## Корисні посилання: 
 1. (https://caninclude.glitch.me/caninclude?child=p&parent=a) - перевірка вкладеності тега
