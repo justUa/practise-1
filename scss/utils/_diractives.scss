@@ -1,0 +1,47 @@
+@mixin transition($property, $speed: 0.3s, $time-function: ease) {
+    transition: $property $speed $time-function;
+}
+
+@mixin supports($property, $value) {
+    @supports ($property: $value) {
+      #{$property}: $value;
+    }
+    @supports not ($property: $value) {
+      @content;
+    }
+}
+
+@mixin gap($value-column, $value-row: $value-column) {
+    @if $value-column == 0 {
+        & {
+            margin-right: calc( 0px - (#{$value-row} / 2));
+            margin-left: calc( 0px - (#{$value-row} / 2));
+        }
+        & > * {
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-right: calc(#{$value-row} / 2);
+            margin-left: calc(#{$value-row} / 2);
+        }
+    }
+    @else if $value-row == 0 {
+        & {
+            margin-top: calc(0px - ($value-column / 2));
+            margin-bottom: calc(0px - ($value-column / 2));
+        }
+        & > * {
+            margin-right: 0;
+            margin-left: 0;
+            margin-top: calc(#{$value-column} / 2);
+            margin-bottom: calc(#{$value-column} / 2);
+        }
+    }
+    @else {
+        & {
+            margin: calc(0px - #{$value-column} / 2);
+        }
+        & > * {
+            margin: calc(#{$value-column} / 2);
+        }
+    }
+}

@@ -190,7 +190,7 @@ h2 {
     left: 0px;
     display: block;
     background-color: var(--light-color);
-    transition: 0.3s ease transform;
+    @include transition(all, 0.5s, cubic-bezier(1,0,0,1));
 }
 
 .menu__item:hover a:after,
@@ -234,7 +234,7 @@ h2 {
 .we-do__list {
     display: flex;
     margin-bottom: 55px;
-    gap: 30px;
+    @include gap(0, 20px);
 }
 
 .we-do-list .h3-title {
@@ -728,7 +728,6 @@ h2 {
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
-
 
 @keyframes scale {
     0% {
